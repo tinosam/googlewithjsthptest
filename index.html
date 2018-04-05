@@ -6,9 +6,10 @@
     <title>Googlle || JS</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image" href="favicon.png" />
-    <script>
-        window.alert("veuillez cliquez sur afficher pour voir les élements géneraux");
-    </script>
+
+
+   
+
 </head>
 
 <body>
@@ -43,19 +44,19 @@
             <img src="img/logo2.gif" alt="logo_google">
         </div>
         <div class="bar-search">
-            <input type="text" name="" placeholder="" id="recherche">
+            <input type="text" name="" placeholder="" id="mot_cle">
             <span class="mic">
                 <img src="img/micro.png" alt="mic">
             </span>
         </div>
         <div class="bouton-search">
-            <input type="submit" value="Recherche Google">
-            <input type="submit" value="J'ai de la chance">
+            <input id ="found" type="submit" value="Recherche Google">
+            <input  id ="luck" type="submit" value="J'ai de la chance" onclick="luck();">
         </div>
     </center>
     <center>
         <div class="bouton-search">
-            <input type="button"  value ="Afficher Elements" onclick="document.getElementById('demo').style.display='block'">
+            <input type="button"  value ="Afficher Elements" onclick="document.getElementById('demo').style.display='block' ">
         </div>
     </center>
     <footer>
@@ -83,6 +84,9 @@
             </li>
         </ul>
     </footer>
+     <script type="text/javascript" src="test.js">
+
+    </script>
 </body>
 
 </html>
