@@ -1,22 +1,41 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Googlle || JS</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image" href="favicon.png" />
 </head>
+
 <body>
     <header>
         <ul>
-            <li><a href="#">Gmail</a></li>
-            <li><a href="#">Images</a></li>
-            <li><a href="#" class="menu"><img src="img/menu.png" alt=""></a></li>
-            <li><a href="#" class="bell"><img src="img/bell.png" alt=""></a></li>
-            <li><a href="#" class="mail"><img src="img/g.png" alt=""></a></li>
+            <li>
+                <a href="#">Gmail</a>
+            </li>
+            <li>
+                <a href="#">Images</a>
+            </li>
+            <li>
+                <a href="#" class="menu">
+                    <img src="img/menu.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="bell">
+                    <img src="img/bell.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="mail">
+                    <img src="img/g.png" alt="">
+                </a>
+            </li>
         </ul>
     </header>
-    <center>
+
+    <center id="demo" style="display:none">
         <div class="logo">
             <img src="img/logo2.gif" alt="logo_google">
         </div>
@@ -31,17 +50,36 @@
             <input type="submit" value="J'ai de la chance">
         </div>
     </center>
-
+    <center>
+        <div class="bouton-search">
+            <input type="button"  value ="Elements Centraux" onclick="document.getElementById('demo').style.display='block'">
+        </div>
+    </center>
     <footer>
         <ul>
-            <li><a href="http://image.noelshack.com/fichiers/2018/14/3/1522846733-29351558-1476833519111713-8602174956880771744-o.jpg">Itokiana de Madagascar</a></li>
-            <li><a href="http://image.noelshack.com/fichiers/2018/14/3/1522846723-22780247-1437234893059069-5956659685427374716-n.jpg">Tino de Madagascar</a></li>
+            <li>
+                <a href="https://www.google.mg/intl/fr_mg/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicité</a>
+            </li>
+            <li>
+                <a href="https://www.google.mg/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Entreprise</a>
+            </li>
+            <li>
+                <a href="https://www.google.mg/intl/fr_mg/about/?utm_source=google.com&utm_medium=referral&utm_campaign=hp-footer&fg=1">A propos</a>
+            </li>
         </ul>
 
         <ul>
-            <li><a href="http://thehackingproject.com">The Hacking Project</a></li>
-            <li><a href="https://google.com">Utiliser Google.com</a></li>
+            <li>
+                <a href="https://www.google.mg/intl/fr_mg/policies/privacy/?fg=1">Confidentialité</a>
+            </li>
+            <li>
+                <a href="https://www.google.mg/intl/fr_mg/policies/terms/?fg=1">Conditions</a>
+            </li>
+            <li>
+                <a href="https://www.google.mg/preferences?hl=fr">Paramètres</a>
+            </li>
         </ul>
     </footer>
 </body>
+
 </html>
